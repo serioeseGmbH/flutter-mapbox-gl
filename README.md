@@ -50,9 +50,9 @@ override fun onCreate(savedInstanceState: Bundle?) {
 ```
 - Import Mapbox widgets and add them to your widget tree
 ```
-import 'package:mapbox_gl/controller.dart';
-import 'package:mapbox_gl/flutter_mapbox.dart';
-import 'package:mapbox_gl/overlay.dart';
+import 'package:flutter_mapbox/controller.dart';
+import 'package:flutter_mapbox/flutter_mapbox.dart';
+import 'package:flutter_mapbox/overlay.dart';
 ```
 
 ## Documentation

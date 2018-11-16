@@ -2,21 +2,28 @@ PODS:
   - Flutter (1.0.0)
   - flutter_mapbox (0.0.1):
     - Flutter
+    - Mapbox-iOS-SDK (= 4.6)
+  - Mapbox-iOS-SDK (4.6.0)
 
 DEPENDENCIES:
-  - Flutter (from `Pods/.symlinks/flutter/ios`)
-  - flutter_mapbox (from `Pods/.symlinks/plugins/flutter_mapbox/ios`)
+  - Flutter (from `.symlinks/flutter/ios`)
+  - flutter_mapbox (from `.symlinks/plugins/flutter_mapbox/ios`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Mapbox-iOS-SDK
 
 EXTERNAL SOURCES:
   Flutter:
-    :path: Pods/.symlinks/flutter/ios
+    :path: ".symlinks/flutter/ios"
   flutter_mapbox:
-    :path: Pods/.symlinks/plugins/flutter_mapbox/ios
+    :path: ".symlinks/plugins/flutter_mapbox/ios"
 
 SPEC CHECKSUMS:
   Flutter: 9d0fac939486c9aba2809b7982dfdbb47a7b0296
-  flutter_mapbox: 4b9fb4f55d0be0e108ca1c3da51f8c9341e7cb4e
+  flutter_mapbox: cd9bc7a4790a80ab0ba761dfa227376d6edab4d1
+  Mapbox-iOS-SDK: 204c04713477cf2a88c52c5a8eed1790eb75a02a
 
-PODFILE CHECKSUM: 0420ab312a523ae0eecfb1fc19ea51dd82cc17c7
+PODFILE CHECKSUM: 82191dd28026e9cf7b89f2f6865b864d20a420d8
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.3

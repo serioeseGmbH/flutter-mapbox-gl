@@ -15,7 +15,7 @@ dependencies:
 flutter:
   plugin:
     androidPackage: com.mapbox.flutter
-    pluginClass: MapboxPlugin
+    pluginClass: FlutterMapboxPlugin
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:
